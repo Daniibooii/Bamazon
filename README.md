@@ -30,16 +30,6 @@ If you haven't written a markdown file yet, click here for a rundown, or just ta
 |  ├── bamazonCustomer.js
 |  ├── package.json
 |  └── schema.sql
-├── Bamazon-Manager
-|  ├── bamazonManager.js
-|  ├── package.json
-|  └── schema.sql
-└── Bamazon-Supervisor
-   ├── bamazonCustomer.js
-   ├── bamazonManager.js
-   ├── bamazonSupervisor.js
-   ├── package.json
-   └── schema.sql
 
 ## Instructions
 ### Challenge #1: Customer View (Minimum Requirement)
