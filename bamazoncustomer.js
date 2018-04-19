@@ -52,7 +52,15 @@ function promptUserQuantity(product){
     .prompt({
       name: "quantity",
       type: "input",
-      message: "How many items would you like to purchase?"
+      message: "How many would you like? [Quit with Q]",
+         validate: function(val) {
+           return val > 0 || val.toLowerCase() === "q";
+         }
+    })
+    .then(function(val) {
+      // Check if the user wants to quit the program
+      checkIfShouldExit(val.quantity);
+      var quantity = parseInt(val.quantity);
     })
     .then(function(val){
       var amount = parseInt(val.quantity);
@@ -72,4 +80,18 @@ function makePurchase(total){
     console.log("Successfully purchased " + amount + " quantity of " + product.product_name + " 's!");
     runStart();
   })
+}
+function checkInventory(choiceId, inventory) {
+  for (var i = 0; i < inventory.length; i++) {
+    if (inventory[i].item_id === choiceId) {
+      return inventory[i];
+    }
+  }
+  return null;
+}
+function checkIfShouldExit(choice) {
+  if (choice.toLowerCase() === "q") {
+    console.log("Goodbye!");
+    process.exit(0);
+  }
 }
