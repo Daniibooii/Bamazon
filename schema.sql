@@ -21,7 +21,7 @@ VALUES ("Europa Universalis IV", "Video Games", 30.00, 150),
   ("UV-Protected Sunglasses", "Tactical Gear", 45.00, 7),
   ("8-Inch Tactical Blade", "Tactical Gear", 54.25, 35),
   ("REI Backpacking Tent", "Tactical Gear", 285.00, 4),
-  ("Debbie Does Dallas Digital Download", "Movies", 25.00, 9,000),
+  ("Debbie Does Dallas Digital Download", "Movies", 25.00, 900),
   ("Blade Runner", "Movies", 25.50, 300),
   ("Axis & Allies", "Board Games", 30.50, 15),
   ("Settlers of Catan", "Board Games", 35.00, 4);
