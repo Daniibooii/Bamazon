@@ -15,13 +15,13 @@ CREATE TABLE products(
 
 SELECT * FROM products;
 INSERT INTO products (product_name, department_name, price, stock_quantity)
-VALUES ("Uncharted 4", "Video Games", 49.95, 150),
-  ("DOOM", "Video Games", 59.99, 200),
-  ("Crate of Spam", "Food and Drink", 24.50, 50),
-  ("Cool Shades", "Apparel", 75.00, 5),
-  ("Worn Denim Jeans", "Apparel", 54.25, 35),
-  ("Survival Towel", "Necessities", 42.42, 42),
-  ("Bill and Ted's Excellent Adventure", "Films", 15.00, 25),
-  ("Mad Max: Fury Road", "Films", 25.50, 57),
-  ("Monopoly", "Board Games", 30.50, 35),
-  ("Yahtzee", "Board Games", 19.95, 23);
+VALUES ("Europa Universalis IV", "Video Games", 30.00, 150),
+  ("Gary Grigsby's War in the East", "Video Games", 80.00, 200),
+  ("Bacon-Flavored Spam", "Food and Drink", 5.75, 50),
+  ("UV-Protected Sunglasses", "Tactical Gear", 45.00, 7),
+  ("8-Inch Tactical Blade", "Tactical Gear", 54.25, 35),
+  ("REI Backpacking Tent", "Tactical Gear", 285.00, 4),
+  ("Debbie Does Dallas Digital Download", "Movies", 25.00, 9,000),
+  ("Blade Runner", "Movies", 25.50, 300),
+  ("Axis & Allies", "Board Games", 30.50, 15),
+  ("Settlers of Catan", "Board Games", 35.00, 4);
